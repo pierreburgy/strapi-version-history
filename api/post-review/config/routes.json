@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/post-reviews",
+      "handler": "post-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/post-reviews/count",
+      "handler": "post-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/post-reviews/:id",
+      "handler": "post-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/post-reviews",
+      "handler": "post-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/post-reviews/rollback",
+      "handler": "post-review.rollback",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/post-reviews/:id",
+      "handler": "post-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/post-reviews/:id",
+      "handler": "post-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

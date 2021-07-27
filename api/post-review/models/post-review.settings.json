@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_reviews",
+  "info": {
+    "name": "Post Review",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "post": {
+      "model": "post",
+      "via": "post_reviews"
+    }
+  }
+}
