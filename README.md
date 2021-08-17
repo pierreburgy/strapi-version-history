@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi Content Versioning
 
-A quick description of your strapi application
+This is an experimental work around to use content versioning in Strapi before the official feature is available.
